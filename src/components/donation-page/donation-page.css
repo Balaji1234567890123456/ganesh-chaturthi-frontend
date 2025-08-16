@@ -1,0 +1,112 @@
+.donation-container {
+  max-width: 650px;
+  margin: 40px auto;
+  padding: 25px 35px;
+  background: linear-gradient(to bottom right, #fff8e7, #ffe0b2);
+  border-radius: 16px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  font-family: "Noto Sans Telugu", sans-serif;
+}
+
+.donation-title {
+  font-size: 28px;
+  color: #d32f2f;
+  margin-bottom: 8px;
+}
+
+.donation-subtitle {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.donation-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+.donation-table-head {
+  background: #fbc02d;
+  color: #fff;
+}
+
+.donation-table-row {
+  border: 1px solid #ddd;
+}
+
+.donation-table-header {
+  padding: 14px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.donation-table-body .donation-table-row:nth-child(even) {
+  background: #fffde7;
+}
+
+.donation-table-data {
+  padding: 14px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+}
+
+.donation-btn {
+  padding: 8px 18px;
+  background: #d32f2f;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.donation-btn:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
+
+.donation-btn:hover:not(:disabled) {
+  background: #b71c1c;
+  transform: scale(1.05);
+}
+
+.toggle-btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: #0288d1;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.toggle-btn:hover {
+  background: #01579b;
+}
+
+.custom-donation-box {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.custom-input {
+  padding: 10px 15px;
+  border: 2px solid #fbc02d;
+  border-radius: 8px;
+  font-size: 16px;
+  width: 200px;
+  outline: none;
+}
+
+.custom-input:focus {
+  border-color: #d32f2f;
+  box-shadow: 0 0 6px rgba(211, 47, 47, 0.4);
+}

@@ -1,0 +1,159 @@
+/* === Profile Wrapper === */
+.profile-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* === Profile Card === */
+.profile-card {
+  background: #fff;
+  padding: 25px;
+  border-radius: 16px;
+  width: 100%;
+  max-width: 480px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* === Header === */
+.profile-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.profile-avatar {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  border: 3px solid #4a90e2;
+  margin-bottom: 10px;
+}
+
+.profile-name {
+  font-size: 22px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* === Details === */
+.profile-details {
+  margin-top: 15px;
+  text-align: left;
+}
+
+.profile-field {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+  font-size: 16px;
+  color: #555;
+}
+
+.profile-icon {
+  margin-right: 10px;
+  font-size: 18px;
+}
+
+.profile-value {
+  font-weight: 500;
+  color: #222;
+}
+
+/* === Logout Button === */
+.logout-btn {
+  margin-top: 20px;
+  padding: 12px 20px;
+  background: #d32f2f;
+  color: #fff;
+  font-weight: bold;
+  font-size: 15px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.logout-btn:hover {
+  background: #b71c1c;
+}
+
+/* === Donations Table === */
+.donations-table {
+  width: 100%;
+  max-width: 600px;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.donations-table th {
+  background: #4a90e2;
+  color: #fff;
+  padding: 12px;
+  text-align: center;
+  font-size: 15px;
+}
+
+.donations-table td {
+  padding: 12px;
+  border-bottom: 1px solid #eee;
+  text-align: center;
+  font-size: 14px;
+  color: #333;
+}
+
+.donations-table tr:last-child td {
+  border-bottom: none;
+}
+
+/* === Print Button inside Table === */
+.print-btn {
+  color: #1976d2;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.print-btn:hover {
+  text-decoration: underline;
+}
+
+/* === No Donations Message === */
+.no-donations {
+  font-size: 15px;
+  color: #ff5722;
+  font-weight: bold;
+}
+
+/* === Responsive Design === */
+@media (max-width: 478px) {
+  .profile-card {
+    padding: 20px;
+    width: 95%;
+  }
+
+  .donations-table th,
+  .donations-table td {
+    font-size: 13px;
+    padding: 10px;
+  }
+
+  .profile-name {
+    font-size: 20px;
+  }
+
+  .logout-btn {
+    width: 100%;
+    font-size: 14px;
+  }
+}

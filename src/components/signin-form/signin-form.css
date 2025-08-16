@@ -1,0 +1,77 @@
+.signin-page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #f9fafb, #fef3c7);
+  font-family: "Noto Sans Telugu", sans-serif;
+}
+
+.signin-card {
+  background: #fff;
+  padding: 28px;
+  border-radius: 16px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+  width: 380px;
+  text-align: center;
+}
+
+.signin-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: #b45309;
+  margin-bottom: 16px;
+}
+
+.signin-form {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.signin-label {
+  text-align: left;
+  font-size: 14px;
+  font-weight: 500;
+  color: #444;
+}
+
+.signin-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-top: 6px;
+}
+
+.signin-btn {
+  margin-top: 14px;
+  background: #d97706;
+  color: #fff;
+  font-weight: bold;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.signin-btn:hover {
+  background: #b45309;
+}
+
+.signin-note {
+  margin-top: 16px;
+  font-size: 14px;
+  color: #333;
+}
+
+.signin-link {
+  color: #d97706;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.signin-link:hover {
+  text-decoration: underline;
+}

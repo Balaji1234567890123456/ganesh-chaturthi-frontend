@@ -1,0 +1,156 @@
+.signup-page {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #ffecd2, #fcb69f);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.signup-overlay {
+  max-width: 478px;
+  width: 100%;
+}
+
+.signup-form-container {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.signup-animation {
+  margin-bottom: 15px;
+}
+
+.signup-ganesh-img {
+  width: 120px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.signup-festive-title {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #d35400;
+}
+
+.signup-festive-subtitle {
+  font-size: 0.9rem;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+.signup-form-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.signup-label {
+  font-size: 0.9rem;
+  text-align: left;
+  color: #333;
+}
+
+.signup-input {
+  width: 100%;
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  margin-top: 4px;
+}
+.signup-note {
+  margin-top: 16px;
+  font-size: 14px;
+  color: #444;
+  text-align: center;
+}
+
+.signup-link {
+  color: #d97706; /* warm festive orange */
+  font-weight: bold;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.signup-link:hover {
+  color: #b45309; /* darker shade on hover */
+  text-decoration: underline;
+}
+
+
+.signup-btn {
+  background: #e67e22;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.signup-btn:hover {
+  background: #d35400;.ur-page {
+  width: 100%;
+  min-height: 100vh;
+  background: #f5f6fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+}
+
+.ur-container {
+  background: white;
+  max-width: 478px;
+  width: 100%;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.ur-title {
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.ur-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.ur-label {
+  font-size: 0.9rem;
+  color: #444;
+}
+
+.ur-input {
+  width: 100%;
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  margin-top: 4px;
+}
+
+.ur-btn {
+  background: #3498db;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-top: 8px;
+}
+
+.ur-btn:hover {
+  background: #2980b9;
+}
+
+}
