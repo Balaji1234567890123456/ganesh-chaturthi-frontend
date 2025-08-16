@@ -15,7 +15,7 @@ export const Donationpage = ({ setIsCustom, isCustom }) => {
   const HandleDonate = async (each) => {
     const amount = parseInt(each);
 
-    const url = "http://localhost:3004/donation/amount";
+    const url = "https://vercel.com/balaji1234567890123456s-projects/ganesh-chaturthi-backend";
     const options = {
       method: "POST",
       headers: {
